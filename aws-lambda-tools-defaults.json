@@ -1,0 +1,15 @@
+{
+  "Information": [
+    "This file is used by the Amazon.Lambda.Tools CLI for deploy/publish commands."
+  ],
+  "profile": "",
+  "region": "us-east-2",
+  "configuration": "Release",
+  "framework": "net6.0",
+  "function-runtime": "dotnet6",
+  "function-memory-size": 256,
+  "function-timeout": 15,
+  "function-handler": "EsepWebhook::EsepWebhook.Function::FunctionHandler",
+  "function-name": "EsepWebhook",
+  "tracing-mode": "PassThrough"
+}
